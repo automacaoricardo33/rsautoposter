@@ -117,4 +117,5 @@ def publish_ig(creation_id):
     if not media_id:
         die(f"Sem media_id no publish: {data}")
     print(f"🎉 Reel publicado! media_id={media_id}")
-    print(f"Obs: Você verá no
+    print(f"Obs: Você verá no painel de status em out/status.html o resultado do último ciclo.")
+
